@@ -1,0 +1,5 @@
+users=("user1" "user2" "user3")
+# list server members by name
+  
+declare -A time_limits=(["user1"]="120" ["user2"]="480" ["user3]="90")
+# list server members and their time limits in minutes as key-value pairs
