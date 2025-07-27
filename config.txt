@@ -1,5 +1,5 @@
-users=("user1" "user2" "user3")
+PLAYERS=("PLAYER1" "PLAYER2" "PLAYER3")
 # list server members by name
   
-declare -A time_limits=(["user1"]="120" ["user2"]="480" ["user3]="90")
+declare -A time_limits=(["PLAYER1"]="120" ["PLAYER2"]="480" ["PLAYER3]="90")
 # list server members and their time limits in minutes as key-value pairs
