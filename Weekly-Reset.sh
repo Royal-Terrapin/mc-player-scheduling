@@ -1,4 +1,9 @@
 source config.txt
 
-for user in ${users[@]} set $TIMEPLAYED_$USER = 0
-for user in ${users[@]} set $LIMITMET_$USER = 0
+for PLAYER in ${PLAYERS[@]}
+do
+  TIMEPLAYED=TIMEPLAYED_$PLAYER
+  ${!TIMEPLAYED}=0
+  LIMITMET=LIMITMET_$PLAYER
+  ${!LIMITMET}=0
+done
