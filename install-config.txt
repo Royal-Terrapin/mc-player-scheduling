@@ -1,0 +1,9 @@
+# This file contains user-configurable installation options. The defaults should be fine for most purposes.
+
+INSTALL_LOCATION=/home/$USER/
+# location to put scripts & config files
+# default: /home/$USER/
+
+CHECK_INTERVAL=5
+# number of minutes between player online checks
+# default: 5
