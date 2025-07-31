@@ -1,0 +1,20 @@
+# The current contents of this file are for demonstration purposes only.
+# Ideally, this file should be created by Install.sh
+# It should be populated by Playerlist-Update.sh, which should also handle any changes to the player list.
+
+# This file is for variable storage and is not intended to be edited manually. 
+# The values here are automatically updated by Player-Online-Check.sh each time it runs.
+# Edit at your own risk!
+
+# To add/remove players, make your changes in config.txt and then run Playerlist-Update.sh
+# To reset all players' time played, run Reset-Status.sh
+# To reset just one player, set their variables here to equal zero.
+  
+TIMEPLAYED_PLAYER1=0
+LIMITMET_PLAYER1=0
+
+TIMEPLAYED_PLAYER2=0
+LIMITMET_PLAYER2=0
+
+TIMEPLAYED_PLAYER3=0
+LIMITMET_PLAYER3=0
